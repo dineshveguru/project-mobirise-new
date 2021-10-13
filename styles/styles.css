@@ -176,3 +176,14 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+.work-heading-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.work-heading {
+  font-family: var(--font);
+  font-size: 7rem;
+  font-weight: bold;
+}
