@@ -1,0 +1,8 @@
+html {
+  font-size: 62.5%;
+}
+
+.front {
+  background: radial-gradient(white, #fad7e9, #decdfa);
+  height: 100vh;
+}
