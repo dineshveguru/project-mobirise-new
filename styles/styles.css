@@ -186,4 +186,83 @@ body {
   font-family: var(--font);
   font-size: 7rem;
   font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.properties {
+  background-color: #fafafa;
+  margin-right: 20rem;
+  margin-left: 20rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.property-desc-heading {
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.property-desc {
+  font-family: var(--font);
+  font-size: 3rem;
+  text-align: left;
+  line-height: 5rem;
+  margin-top: 1rem;
+}
+
+.property-video {
+  margin-top: 6rem;
+  width: 50rem;
+  margin-bottom: 0;
+}
+
+.content {
+  gap: 8rem;
+}
+
+.amazing-heading {
+  font-family: var(--font);
+  font-size: 7rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.amazing-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.amazing-desc-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.amazing-desc {
+  font-family: var(--font);
+  font-size: 3rem;
+  text-align: center;
+  margin-right: 32rem;
+  margin-left: 32rem;
+  margin-top: 1rem;
+  line-height: 5rem;
+}
+
+.red-color {
+  color: var(--color-primary);
+}
+
+.mul-image {
+  width: 150rem;
+}
+
+.download-block {
+  background-color: #fafafa;
 }
