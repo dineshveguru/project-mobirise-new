@@ -1,3 +1,9 @@
+:root {
+  --color-primary: #ff6666;
+  --color-secondary: #6592e6;
+  --font: "Jost", sans-serif;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -5,4 +11,23 @@ html {
 .front {
   background: radial-gradient(white, #fad7e9, #decdfa);
   height: 100vh;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+.logo {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+.brand-text {
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-family: var(--font);
+}
+
+.banner {
+  display: flex;
 }
