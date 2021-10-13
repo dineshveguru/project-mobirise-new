@@ -266,3 +266,18 @@ body {
 .download-block {
   background-color: #fafafa;
 }
+
+.feature1-image {
+  width: 60rem;
+  margin-right: 20rem;
+}
+
+.feature2-image {
+  width: 60rem;
+  padding-left: 10rem;
+}
+
+.feature3-image {
+  width: 60rem;
+  padding-top: 5rem;
+}
