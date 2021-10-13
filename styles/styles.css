@@ -113,11 +113,14 @@ body {
   margin-right: 10rem;
   margin-left: 10rem;
   margin-top: 0;
+  margin-bottom: 3rem;
+  line-height: 8rem;
 }
 
 .downloads {
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .windows {
@@ -127,4 +130,49 @@ body {
 .btn-layout .link {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.video-main-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.video-main {
+  box-shadow: 0 0 20px rgb(196, 194, 194);
+
+  width: 50rem;
+}
+
+.container-layout {
+  width: 370px;
+  height: 420px;
+  background: #fafafa;
+  margin-right: 30px;
+  border-radius: 0.5rem;
+}
+
+.container-grid {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container-heading-layout {
+  display: flex;
+  justify-content: center;
+}
+.container-heading {
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.container-content {
+  font-family: var(--font);
+  font-size: 2.3rem;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
