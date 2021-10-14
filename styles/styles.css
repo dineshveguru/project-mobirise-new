@@ -77,6 +77,10 @@ body {
   background: var(--color-primary);
 }
 
+.btn-layout:hover {
+  color: #ff0f0f;
+}
+
 .btn-secondary {
   background: var(--color-secondary);
 }
@@ -257,6 +261,7 @@ body {
 
 .red-color {
   color: var(--color-primary);
+  cursor: pointer;
 }
 
 .mul-image {
@@ -284,4 +289,72 @@ body {
 
 .youtube-block {
   background-color: #fafafa;
+}
+
+.final-footer {
+  background-image: radial-gradient(
+    circle,
+    #fff,
+    #f6f0fc,
+    #f2e0f5,
+    #f2cfe9,
+    #f4bdd9,
+    #f3b0d2,
+    #f3a3cb,
+    #f296c3,
+    #ea8dcd,
+    #dc87d9,
+    #c783e7,
+    #a982f5
+  );
+  margin-top: 15rem;
+  padding-top: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-logo {
+  width: 15rem;
+  height: 15rem;
+  padding-top: 1.5rem;
+}
+
+.footer-links-layout {
+  font-family: var(--font);
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.footer-lists {
+  list-style-type: none;
+}
+
+.footer-list-desc {
+  color: #fff;
+  font-family: var(--font);
+  font-size: 2rem;
+  margin-right: 11rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.trade {
+  display: flex;
+  justify-content: center;
+}
+
+.trade-mark {
+  font-family: var(--font);
+  font-size: 2rem;
+  color: #fff;
 }
